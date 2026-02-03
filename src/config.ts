@@ -38,21 +38,21 @@ export const siteConfig = {
       name: "Autonomous Bin-Picking Robot",
       description:
         "Implemented an autonomous bin-picking solution by leveraging ROS2, MoveIt2 and OpenCV. The system comprises of a UR5 robotic arm and a Robotiq gripper to perform pick and place.",
-      link: "#", // Source Code link placeholder
+      link: "https://github.com/Sounderya22/bin_picking_robot", // Source Code link placeholder
       skills: ["ROS2", "MoveIt2", "OpenCV", "UR5"],
     },
     {
       name: "Footstep following for Cassie Robot",
       description:
         "Developed a bipedal walking controller to achieve footstep following for Cassie robot in a simulated(MuJoCo) environment.",
-      link: "#", // Source Code link placeholder
+      link: "https://github.com/Sounderya22/Bi_Pedal_Robot-Learning", // Source Code link placeholder
       skills: ["MuJoCo", "Control", "Bipedal Locomotion"],
     },
     {
       name: "Visual Servoing with MPC for Nonholonomic Robot Steering",
       description:
         "Developed a perception-driven MPC framework to implement a controller for a nonholonomic robot.",
-      link: "#", // Source Code link placeholder
+      link: "https://github.com/Sounderya22/model_predictive_control", // Source Code link placeholder
       skills: ["MPC", "Visual Servoing", "Control"],
     },
   ],
@@ -111,7 +111,7 @@ export const siteConfig = {
       degree: "M.Eng. Robotics",
       dateRange: "2024 - 2026",
       achievements: [
-        "GPA: 4.0",
+        "CGPA: 3.88",
       ],
     },
     {
