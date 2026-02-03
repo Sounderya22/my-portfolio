@@ -63,8 +63,11 @@ export const siteConfig = {
       dateRange: "Feb 2025 - Present",
       bullets: [
         "Developed a bike lane detection system for the self-driving escooter project, ReZoom under the guidance of Dr. Derek A. Paley by utilizing a YOLOv8 model trained on a custom dataset and optimized the model by converting it from PyTorch to TensorRT, doubling the real-time inference FPS for image stream and point cloud outputs.",
-        "Researching the effectiveness of Gaussian 3D scene representations over image-based inputs for policy learning (imitation and reinforcement learning) on a UR5 robotic arm",
-        "Training a π0 policy on end-effector poses from demonstrations to enable a UR5 robotic arm to successfully execute complex manipulation tasks (e.g., pouring and hooking).",
+        // "Researching the effectiveness of Gaussian 3D scene representations over image-based inputs for policy learning (imitation and reinforcement learning) on a UR5 robotic arm",
+        // "Training a π0 policy on end-effector poses from demonstrations to enable a UR5 robotic arm to successfully execute complex manipulation tasks (e.g., pouring and hooking).",
+        "Working on a mobile manipulation pipeline using a TurtleBot2 base and LeRobot SO leader–follower manipulator for autonomous navigation and object pickup in structured indoor environments.",
+        "Developing a learning-based manipulation framework on a UR3 arm using diffusion and flow-matching policies, leveraging π0 for
+policy-guided manipulation.",
       ],
     },
     {
