@@ -2,14 +2,16 @@ export const siteConfig = {
   name: "Sounderya Varagur Venugopal",
   title: "Robotics Engineer | Graduate Research Assistant",
   description: "Portfolio website of Sounderya Varagur Venugopal",
+  profileImage: "/my-portfolio/profile.jpg",
+  profileImagePosition: "50% 40%", // Optional: "top", "bottom", "center", "50% 20%", etc.
   accentColor: "#1d4ed8",
   social: {
     email: "vvsounderya22@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sounderya-varagur-venugopal", // Inferred pattern, user can update
-    github: "https://github.com/vvsounderya22", // Inferred from email/context
+    linkedin: "https://www.linkedin.com/in/sounderya-varagur-venugopal",
+    github: "https://github.com/vvsounderya22",
   },
   aboutMe:
-    "I’m a robotics enthusiast currently pursuing my Master’s in Robotics at the University of Maryland. Over the past four years, I’ve had the exciting opportunity to work on a variety of robotic systems, from collaborative robots to medical devices and autonomous robots. My passion lies in developing smart, user-friendly robots that can work safely alongside humans. I’ve honed my skills in improving robot vision, creating intuitive interfaces, and ensuring robots operate safely when interacting with people. I love diving into cutting-edge tech like ROS, Gazebo, Control, A.I., and I’m always eager to learn more.",
+    "I am a robotics engineer currently pursuing a Master’s in Robotics at the University of Maryland, with a strong interest in building robotic systems that can collaborate with humans and operate reliably in the real world. My work centers on manipulation and learning-based control, particularly on bridging the gap between data-driven policies and physical robot behavior under real-world constraints. I am especially motivated by developing learning controllers for manipulators that can generalize beyond carefully staged setups, and I am currently exploring π₀ and fine-tuning it for blind manipulation. More broadly, I enjoy working at the system level—where perception, control, and learning interact—and thinking deeply about how modern learning methods can be shaped into robust, deployable robotic solutions.",
   skills: [
     "C",
     "C++",

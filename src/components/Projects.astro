@@ -71,19 +71,13 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           </h3>
                         </div>
 
-                        {Array.isArray(project.description) ? (
-                          <ul class={`list-disc list-inside text-base sm:text-lg text-gray-600 leading-relaxed space-y-2 ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}>
-                            {project.description.map((point) => (
-                              <li>{point}</li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p
-                            class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
-                          >
-                            {project.description}
-                          </p>
-                        )}
+                        <p
+                          class={`text-base sm:text-lg text-gray-600 leading-relaxed ${
+                            project.link ? "pr-12 sm:pr-14 md:pr-16" : ""
+                          }`}
+                        >
+                          {project.description}
+                        </p>
 
                         {project.skills && project.skills.length > 0 && (
                           <div class="flex flex-wrap gap-1.5 sm:gap-2 pt-2">
