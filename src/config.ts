@@ -36,24 +36,49 @@ export const siteConfig = {
   projects: [
     {
       name: "Autonomous Bin-Picking Robot",
-      description:
-        "Implemented an autonomous bin-picking solution by leveraging ROS2, MoveIt2 and OpenCV. The system comprises of a UR5 robotic arm and a Robotiq gripper to perform pick and place.",
+      description: [
+        "Developed an autonomous bin-picking system in ROS 2 using a UR5e robotic arm, Robotiq gripper, and RGB-D perception, integrating object detection, point-cloud–based pose estimation, and MoveIt 2 motion planning for reliable pick-and-place in cluttered scenes",
+        "Implemented an end-to-end perception-to-manipulation pipeline featuring SVM-based object recognition, point cloud filtering and clustering, collision-aware trajectory planning (OMPL), and CI/CD-driven software design with Docker, automated testing, and reproducible builds.",
+      ],
       link: "https://github.com/Sounderya22/bin_picking_robot", // Source Code link placeholder
       skills: ["ROS2", "MoveIt2", "OpenCV", "UR5"],
     },
     {
       name: "Footstep following for Cassie Robot",
-      description:
-        "Developed a bipedal walking controller to achieve footstep following for Cassie robot in a simulated(MuJoCo) environment.",
+      description: [
+        "Designed a footstep-conditioned reinforcement learning controller for the Cassie bipedal robot using PPO in a custom MuJoCo environment, enabling stable, goal-directed walking by tracking externally planned footstep sequences without imitation learning or trajectory optimization",
+        "Integrated temporal CNN-MLP policy architecture, curriculum learning, and reference-based reward shaping to achieve smooth, balanced locomotion on straight and curved footstep plans, demonstrating robust posture stabilization, accurate step alignment, and low-jitter joint control",
+      ],
       link: "https://github.com/Sounderya22/Bi_Pedal_Robot-Learning", // Source Code link placeholder
-      skills: ["MuJoCo", "Control", "Bipedal Locomotion"],
+      skills: ["MuJoCo", "Control", "Bipedal Locomotion", "PPO", "Reinforcement Learning"],
     },
     {
       name: "Visual Servoing with MPC for Nonholonomic Robot Steering",
-      description:
-        "Developed a perception-driven MPC framework to implement a controller for a nonholonomic robot.",
+      description: [
+        // "Developed a perception-driven MPC framework to implement a controller for a nonholonomic robot.",
+        "Designed a vision-based nonlinear MPC controller for steering a nonholonomic mobile robot using onboard visual feedback.",
+        "Integrated visual servoing with kinematic and dynamic control, enforcing actuator and velocity constraints via constrained optimization.",
+        "Utilized CVXPY and OSQP Solver to solve Quadratic Programming (QP) optimization problems efficiently and validated performance through Turtlebot simulations in Gazebo.",
+      ],
       link: "https://github.com/Sounderya22/model_predictive_control", // Source Code link placeholder
-      skills: ["MPC", "Visual Servoing", "Control"],
+      skills: ["MPC", "Visual Servoing", "ROS2", "Gazebo"],
+    },
+    {
+      name: "Multi-Agent Reinforcement Learning for Drone Navigation",
+      description: [
+        "Developed custom multi-agent reinforcement learning controllers (MAPPO & IPPO) in PyTorch for coordinated quadrotor control",
+        "Implemented centralized training with decentralized execution (CTDE) using MAPPO and IPPO algorithms, achieving coordinated multi-agent control with shared policies and independent action selection.",
+        "Extended the gym-pybullet-drones environment to include multi-agent tasks such as hovering, spiral formation flying, and leader-follower navigation.",
+        "Achieved ~3x improvement over Stable-Baselines3(reducing spiral formation RMSE to 0.25m and collision rates to 2.1%) by leveraging centralized critics, relative coordinate encodings, and reward shaping."
+      ],
+      link: "https://github.com/Sounderya22/marl-gym-pybullet-drones",
+      skills: [
+        "Reinforcement Learning",
+        "Multi-Agent Systems",
+        "PyTorch",
+        "PyBullet",
+        "MAPPO",
+      ],
     },
   ],
   experience: [
