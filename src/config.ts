@@ -82,6 +82,15 @@ export const siteConfig = {
         "MAPPO",
       ],
     },
+    {
+      name: "Pursuit-Evasion through Dynamic RRT*",
+      description: [
+        "Developed a 2D RRT* path planner that implements a pursuit stratetgy to catch a randomly moving target in a 2D maze environment and then extended the same to a Gazebo simulated environment with Turtlebots",
+        "The pursuer robot extracts the current pose of the evader robot and plans a path, and the evader robot is considered caught when it is in view of the pursuer robot and a certain distance away (calculated using a depth camera)."
+      ],
+      link: "https://github.com/Sounderya22/pursuit_evasion",
+      skills: ["ROS2", "Dynamic RRT*", "Gazebo", "Turtlebot3", "Python"],
+    },
   ],
   experience: [
     {
