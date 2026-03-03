@@ -8,7 +8,7 @@ export const siteConfig = {
   social: {
     email: "vvsounderya22@gmail.com",
     linkedin: "https://www.linkedin.com/in/sounderya-varagur-venugopal",
-    github: "https://github.com/vvsounderya22",
+    github: "https://github.com/Sounderya22",
   },
   aboutMe:
     "I am a robotics engineer currently pursuing a Master’s in Robotics at the University of Maryland, with a strong interest in building robotic systems that can collaborate with humans and operate reliably in the real world. My work centers on manipulation and learning-based control, particularly on bridging the gap between data-driven policies and physical robot behavior under real-world constraints. I am especially motivated by developing learning controllers for manipulators that can generalize beyond carefully staged setups, and I am currently exploring π₀ and fine-tuning it for blind manipulation. More broadly, I enjoy working at the system level—where perception, control, and learning interact—and thinking deeply about how modern learning methods can be shaped into robust, deployable robotic solutions.",
